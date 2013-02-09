@@ -1,11 +1,8 @@
 #Apptamin D
 ###Wordpress Theme for **D**esktop applications
-<<<<<<< HEAD
-=======
 
 For promoting any desktop application with brand new website.
 
->>>>>>> slogan and plan
 ---
 #Important notice
 ##WIP status
