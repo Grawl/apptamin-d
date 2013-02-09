@@ -1,5 +1,5 @@
 #Apptamin D
-##Wordpress Theme for **D**esktop applications
+###Wordpress Theme for **D**esktop applications
 ---
 #Important notice
 This theme is a fork of Apptamin A Theme and still has a WIP status, so don't download it now, it's not ready yet, it's just the same as Apptamin A.
