@@ -11,9 +11,8 @@ This theme is a fork of Apptamin A Theme and still has a WIP status, so don't d
 In the nearest future I want to replace mobile features of Apptamin A with deskop-specific features.
 
 1. Replace mobile devices with usual PC desktop monitor and iMac
-2. Replace iTunes App Store button with Mac App Store button
+2. ~~Replace iTunes App Store button with Mac App Store button and Google Play with Windows Store~~
 3. Add direct download button
-4. Add Windows Store button
 
 With these updates you can use this theme for your desktop app.
 
