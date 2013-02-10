@@ -77,7 +77,7 @@ body.home #app-stage {
 	padding-top:50px;
 }
 
-a.androiddl{
+a.windows-store-dl{
 	margin-left:10px;
 	background: url(images/app-store-buttons-android.png);
 	background-repeat:no-repeat;
@@ -85,7 +85,7 @@ a.androiddl{
 	width:183px;
 	height:60px;
 }
-a.itunesdl{
+a.masdl{
 	background: url(images/app-store-buttons-iphone.png);
 	background-repeat:no-repeat;
 	display:block;

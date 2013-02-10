@@ -411,25 +411,25 @@ a.app-icon{
 	}
 
 
-a.itunesdl,a.androiddl{
+a.masdl,a.windows-store-dl{
 	display:block;
 	float:right;
 }
 
-a.androiddl{
+a.windows-store-dl{
 	margin-left:10px;
-	background: url(images/app-store-buttons-android.png_og.png);
+	background: url(images/WindowsStore_badge_black_en_small_40x125.png);
 	background-repeat:no-repeat;
 	display:block;
-	width:172px;
-	height:60px;
+	width:125px;
+	height:40px;
 }
-a.itunesdl{
-	background: url(images/app-store-buttons-iphone_og.png);
+a.masdl{
+	background: url(images/Download_on_the_Mac_App_Store_Badge_US-UK_165x40.png);
 	background-repeat:no-repeat;
 	display:block;
-	width:202px;
-	height:60px;
+	width:165px;
+	height:40px;
 }
 
 .app-video{

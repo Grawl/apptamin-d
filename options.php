@@ -31,7 +31,7 @@ function optionsframework_options() {
 	$devices_back_array = $devices_front_array;
 
 	// Multicheck Array
-	$multicheck_array = array("one" => "iTunes Store", "two" => "Google Play (Android Market)");
+	$multicheck_array = array("one" => "Mac App Store", "two" => "Windows Store");
 
 	// Multicheck Defaults
 	$multicheck_defaults = array("one" => "1","two" => "1");
@@ -111,27 +111,27 @@ function optionsframework_options() {
 		"type" => "info",
 		"class" => "special");
 		
-	$options[] = array( "name" => "iTunes Store (iOS)",
-		"desc" => "Check the box if you have an iPhone app (will display download button)",
-		"id" => "app_itunes_store_checkbox",
+	$options[] = array( "name" => "Mac App Store",
+		"desc" => "Check the box if you have an a Mac app (will display download button)",
+		"id" => "app_mac_app_store_checkbox",
 		"std" => "true",
 		"type" => "checkbox");
 	
 	$options[] = array( 
-		"desc" => "Put here the link towards your app page on the iTunes Store. If left blank, no 'Available on the App Store' button will show on the AppStage",
-		"id" => "app_itunes_store_text",
+		"desc" => "Put here the link towards your app page on the Mac App Store. If left blank, no 'Available on the Mac App Store' button will show on the AppStage",
+		"id" => "app_mac_app_store_text",
 		"std" => "",
 		"type" => "text");
 		
-	$options[] = array( "name" => "Google Play (Android)",
-		"desc" => "Check the box if you have an Android app (will display download button).",
-		"id" => "app_android_store_checkbox",
+	$options[] = array( "name" => "Windows Store",
+		"desc" => "Check the box if you have an app in Windows Store (will display download button).",
+		"id" => "app_windows_store_checkbox",
 		"std" => "true",
 		"type" => "checkbox");
 	
 	$options[] = array( 
-		"desc" => "Put here the link towards your app page on the Google Play store (Android Market). If left blank, no Android Smartphone and no 'Download for Android' button will show on the AppStage",
-		"id" => "app_android_store_text",
+		"desc" => "Put here the link towards your app page on the Windows Store. If left blank, no PC and no 'Windows Store' button will show on the AppStage",
+		"id" => "app_windows_store_text",
 		"std" => "",
 		"type" => "text");
 		
@@ -757,13 +757,13 @@ function optionsframework_options() {
 		"class" => "special");
 		
 	$options[] = array( "name" => "Google +1 button",
-		  "desc" => "Check if you want to display a +1 Button on the App Stage. The URL used will be the homepage URL. If you want to use a custom URL (like your android market app link for example), put the URL in the field bellow.",
+		  "desc" => "Check if you want to display a +1 Button on the App Stage. The URL used will be the homepage URL. If you want to use a custom URL, put the URL in the field bellow.",
 		  "id" => "apptamin_pobutton_showhidden_checkbox",
 		  "std" => "false",
 		  "type" => "checkbox" );
 	
 	$options[] = array(
-		  "desc" => "Put a custom URL if you want to use something else than the homepage URL (like your android market app link). Leave blank for default URL.",
+		  "desc" => "Put a custom URL if you want to use something else than the homepage URL. Leave blank for default URL.",
 		  "id" => "apptamin_pocustom_url_text",
 		  "class" => "hidden",
 		  "std" => "",
