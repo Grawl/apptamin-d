@@ -650,6 +650,8 @@ ul.features li .imgwrap {
 .feature {
   position: relative;
   left: 0px;
+  height: 400px;
+  float: left;
 }
 .feature .imac {
   position: absolute;
