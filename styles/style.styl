@@ -1,0 +1,166 @@
+/*   
+Theme Name: Apptamin A Theme
+Theme URI: http://www.apptamin.com/
+Description: An amazing theme for your app. It lets you fully customize your app presentation website without coding a single line, and is optimized to display the needed elements about your app. More info on <a href="http://www.apptamin.com/">Apptamin.com</a>
+Author: <a href="http://www.apptamin.com/">Sylvain Gauchet</a>
+Author URI: http://www.apptamin.com/
+Template: thematic
+Version: 2.0
+License: GNU General Public License
+License URI: license.txt
+Tags: mobile,apps,android,iphone
+.
+The Apptamin A Theme is copyright Sylvain Gauchet http://www.apptamin.com/
+This work, like WordPress, is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+@import url('../thematic/library/styles/reset.css')
+@import url('../thematic/library/styles/typography.css')
+@import url('../thematic/library/layouts/2c-r-fixed.css')
+@import url('../thematic/library/styles/images.css')
+@import url('../thematic/library/styles/plugins.css')
+@import url('custom.css')
+body
+	background: #F7F5F2
+	&.home
+		background: #FFF
+		#main
+			padding-bottom: 0px
+		#app-stage
+			height: 555px
+			background: #F7F5F2
+			border-bottom: 1px solid #fff
+			box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1) inset
+		#container
+			margin-top: 0px
+			background: none
+			box-shadow: none
+		#footer
+			margin-top: 0px
+a
+	color: #0088C
+	text-decoration: none
+a:hover,a:visited
+	color: #005580
+#main
+	width: 980px
+#header
+	background: #2E3133
+#branding
+	height: 65px
+	width: 980px
+#blog-title
+	padding: 15px 0 0
+#access
+	text-transform: uppercase
+	font-weight: normal
+	padding-top: 15px
+	a
+		color: #777E83
+		&:hover
+			color: #FFF
+#scroller
+	padding-top: 30px
+	background: #F7F5F2
+.app-name
+	h1
+		color: #45494D
+		padding-top: 30px
+.app-description
+	padding-top: 60px
+	h2
+		font-size: 1.8em
+		font-weight: normal
+		line-height: 30px
+	&.video-on
+		padding-top: 40px
+.app-video
+	padding-top: 20px
+.notif
+	input#mc-embedded-subscribe_appstage
+		background: #4894ca
+		background: -moz-linear-gradient(top,  #4894ca 0%, #1b69a1 100%)
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4894ca), color-stop(100%,#1b69a1))
+		background: -webkit-linear-gradient(top,  #4894ca 0%,#1b69a1 100%)
+		background: -o-linear-gradient(top,  #4894ca 0%,#1b69a1 100%)
+		background: -ms-linear-gradient(top,  #4894ca 0%,#1b69a1 100%)
+		background: linear-gradient(top,  #4894ca 0%,#1b69a1 100%)
+		border: 1px solid #1b69a1
+.download-buttons
+	padding-top: 50px
+#container
+	margin-top: 20px
+	background-color: #fff
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1)
+.app-widget-item
+	margin-bottom: 22px
+h3
+	&.widgettitle
+		text-transform: uppercase
+		font-style: normal
+.textwidget
+	background-color: #EDEAE5
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset
+	padding: 15px 20px 15px 20px
+hr
+	&.styled
+		border: 0
+		height: 1px
+		background: #333
+		background-image: -webkit-linear-gradient(left, #e1d9d3, #bab4b1, #e1d9d3)
+		background-image: -moz-linear-gradient(left, #e1d9d3, #bab4b1, #e1d9d3)
+		background-image: -ms-linear-gradient(left, #e1d9d3, #bab4b1, #e1d9d3)
+		background-image: -o-linear-gradient(left, #e1d9d3, #bab4b1, #e1d9d3)
+		width: 980px
+		display: none
+ul
+	&.features
+		li
+			padding-top: 50px
+			&.feature2
+				box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1) inset
+				background: #F7F5F2
+			&.feature5
+				background-color: #EDEAE5
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset
+.features
+	h3
+		text-transform: uppercase
+		color: #45494D
+	h4
+		color: #626263
+		span
+			text-transform: uppercase
+			font-weight: bold
+#footer,#siteinfo
+	background: #2E3133
+#footer
+	h4
+		color: #777E83
+		text-align: center
+	a
+		color: #E2E3E4
+		text-decoration: none
+		&:hover
+			color: #5EBBC1
+.footer-bloc ul.twitter li, .footer-bloc ul.blog li
+	border-bottom: none
+@import global
+@import header
+@import mailchimp
+@import homepage
+@import appstage
+@import buttons
+@import features
+@import mission-statement
+@import pullquotes
+@import navigation
+@import essential
+@import thematic-skin
+@import content
+@import attachments
+@import comments
+@import aside
+@import footer
+@import pagenavi

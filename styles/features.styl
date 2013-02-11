@@ -1,0 +1,253 @@
+ul
+    &.features
+        list-style-type: none
+        margin: 0px
+        clear: both
+        & > li
+            clear: both
+            display: block
+            padding-top: 30px
+            width: 100%
+        li
+            &.imgright
+                background-position: 0px 20px
+                .imgwrap
+                    background-position: 0px 20px
+            .imgwrap
+                width: 960px
+                margin: 0 auto
+                height: 510px
+                position: relative
+.imgleft
+    .features-img
+        float: left
+        margin-right: 20px
+    .features-txt
+        float: right
+.imgright
+    .features-img
+        float: right
+        margin-left: 20px
+    .feature
+        position: relative
+        left: 640px
+.imgleft h3,.imgleft h4
+    clear: none
+    float: left
+    margin-left: 20px
+.imgright h3,.imgright h4
+    clear: none
+    float: left
+    margin-left: 30px
+.feature
+    position: relative
+    left: 0px
+    .imac
+        position: absolute
+        background: url(images/device_imac_front.png)
+        background-repeat: no-repeat
+        width: 220px
+        height: 520px
+        z-index: 3
+        left: 100px
+        &.back
+            background: url(images/device_imac_back.png)
+            background-repeat: no-repeat
+            top: 50px
+            left: 0px
+            display: block
+            width: 180px
+            height: 409px
+            z-index: 2
+            img
+                margin-left: 15px
+                margin-top: 62px
+                width: 152px
+                height: 228px
+        img
+            &.screenshot
+                margin-left: 19px
+                margin-top: 75px
+                width: 186px
+                height: 279px
+                z-index: 9
+        .glare
+            position: absolute
+            background: url(images/glare_imac.png)
+            background-repeat: no-repeat
+            width: 77px
+            height: 203px
+            left: 128px
+            top: 75px
+            z-index: 10
+    .iphone5
+        position: absolute
+        background: url(images/device_iphone5_front_reflect.png)
+        background-repeat: no-repeat
+        width: 220px
+        height: 520px
+        z-index: 3
+        left: 100px
+        &.back
+            background: url(images/device_iphone5_back_reflect.png)
+            background-repeat: no-repeat
+            top: 35px
+            left: 0px
+            display: block
+            width: 180px
+            height: 435px
+            z-index: 2
+            img
+                margin-left: 16px
+                margin-top: 58px
+                width: 151px
+                height: 268px
+        img
+            &.screenshot
+                margin-left: 19px
+                margin-top: 70px
+                width: 185px
+                height: 328px
+                z-index: 9
+        .glare
+            position: absolute
+            background: url(images/glare_iphone5.png)
+            background-repeat: no-repeat
+            width: 87px
+            height: 203px
+            left: 117px
+            top: 70px
+            z-index: 10
+    .androidS2
+        position: absolute
+        background: url(images/device_androidS2_front_reflect.png)
+        background-repeat: no-repeat
+        width: 293px
+        height: 480px
+        z-index: 3
+        left: 60px
+        top: 15px
+        img
+            &.screenshot
+                margin-left: 56px
+                margin-top: 55px
+                width: 186px
+                height: 310px
+                z-index: 9
+        .glare
+            position: absolute
+            background: url(images/glare_androidS2.png)
+            background-repeat: no-repeat
+            width: 105px
+            height: 408px
+            left: 149px
+            top: 4px
+            z-index: 10
+    .androidS3
+        position: absolute
+        background: url(images/device_androidS3_front_reflect.png)
+        background-repeat: no-repeat
+        width: 293px
+        height: 480px
+        z-index: 3
+        left: 60px
+        top: 15px
+        img
+            &.screenshot
+                margin-left: 51px
+                margin-top: 40px
+                width: 192px
+                height: 341px
+                z-index: 9
+        .glare
+            position: absolute
+            background: url(images/glare_androidS3.png)
+            background-repeat: no-repeat
+            width: 105px
+            height: 408px
+            left: 149px
+            top: 4px
+            z-index: 10
+.androidS2
+    &.back
+        background: url(images/device_androidS2_back_reflect.png)
+        background-repeat: no-repeat
+        top: 50px
+        left: -30px
+        display: block
+        width: 244px
+        height: 400px
+        z-index: 2
+        img
+            &.screenshot
+                margin-left: 47px
+                margin-top: 46px
+                width: 155px
+                height: 259px
+.androidS3
+    &.back
+        background: url(images/device_androidS3_back_reflect.png)
+        background-repeat: no-repeat
+        top: 50px
+        left: -30px
+        display: block
+        width: 244px
+        height: 400px
+        z-index: 2
+        img
+            &.screenshot
+                margin-left: 43px
+                margin-top: 34px
+                width: 160px
+                height: 284px
+.feature.single-phone .imac.back,
+.feature.single-phone .iphone5.back
+.feature.single-phone .androidS2.back,
+.feature.single-phone .androidS3.back
+    display: none
+.feature.single-phone .imac,
+.feature.single-phone .iphone5
+    left: 40px
+.feature.single-phone .androidS2,
+.feature.single-phone .androidS3
+    left: 5px
+.imgright .feature .imac,
+.imgright .feature .iphone5
+    left: 0px
+.imgright .feature  .androidS2,
+.imgright .feature  .androidS3
+    left: -30px
+.imgright .feature.single-phone .imac,
+.imgright .feature.single-phone .iphone5
+    left: 40px
+.imgright .feature .imac.back,
+.imgright .feature .iphone5.back
+    left: 138px
+.imgright .feature .androidS2.back,
+.imgright .feature .androidS3.back
+    left: 100px
+.imgright .feature.single-phone .androidS2,
+.imgright .feature.single-phone .androidS3
+    left: 5px
+.features
+    h3
+        font-size: 2.1em
+        line-height: 36px
+        font-weight: normal
+        padding-bottom: 20px
+        width: 100%
+    h4
+        padding-top: 10px
+        font-size: 1.2em
+        line-height: 30px
+.features-txt
+    padding-top: 70px
+    float: left
+    width: 600px
+.special
+    clear: both
+    display: block
+    width: 100%
+    float: left
+    height: 100%
+    padding: 30px 0px
