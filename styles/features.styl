@@ -46,10 +46,10 @@ ul
         position: absolute
         background: url(images/device_imac_front.png)
         background-repeat: no-repeat
-        width: 220px
-        height: 520px
+        width: $desktop-width
+        height: 365px
         z-index: 3
-        left: 100px
+        left: 0
         &.back
             background: url(images/device_imac_back.png)
             background-repeat: no-repeat
@@ -65,11 +65,12 @@ ul
                 width: 152px
                 height: 228px
         img
+            position: absolute
             &.screenshot
-                margin-left: 19px
-                margin-top: 75px
-                width: 186px
-                height: 279px
+                left: 18px
+                top: 17px
+                width: 415px
+                height: 235px
                 z-index: 9
         .glare
             position: absolute
@@ -200,35 +201,40 @@ ul
                 margin-top: 34px
                 width: 160px
                 height: 284px
-.feature.single-phone .imac.back,
-.feature.single-phone .iphone5.back
-.feature.single-phone .androidS2.back,
-.feature.single-phone .androidS3.back
-    display: none
-.feature.single-phone .imac,
-.feature.single-phone .iphone5
-    left: 40px
-.feature.single-phone .androidS2,
-.feature.single-phone .androidS3
-    left: 5px
-.imgright .feature .imac,
-.imgright .feature .iphone5
-    left: 0px
-.imgright .feature  .androidS2,
-.imgright .feature  .androidS3
-    left: -30px
-.imgright .feature.single-phone .imac,
-.imgright .feature.single-phone .iphone5
-    left: 40px
-.imgright .feature .imac.back,
-.imgright .feature .iphone5.back
-    left: 138px
-.imgright .feature .androidS2.back,
-.imgright .feature .androidS3.back
-    left: 100px
-.imgright .feature.single-phone .androidS2,
-.imgright .feature.single-phone .androidS3
-    left: 5px
+.feature.single-desktop
+	.back
+		&.imac,
+		&.iphone5,
+		&.androidS2,
+		&.androidS3
+		    display: none
+	.iphone5
+	    left: 40px
+	.androidS2,
+	.androidS3
+	    left: 5px
+.imgright
+	.feature
+		.imac,
+		.iphone5
+		    left: 0px
+		 .androidS2,
+		 .androidS3
+		    left: -30px
+		.imac.back,
+		.iphone5.back
+		    left: 138px
+		.androidS2.back,
+		.androidS3.back
+		    left: 100px
+		&.single-desktop
+			.imac,
+			.iphone5
+		    	left: 40px
+		&.single-desktop
+			.androidS2,
+			.androidS3
+		  	  left: 5px
 .features
     h3
         font-size: 2.1em
