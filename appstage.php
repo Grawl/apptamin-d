@@ -6,7 +6,7 @@
 				$device_back_appstage=of_get_option('devices_back_radio');
 				
 				if ($device_back_appstage=="none"){
-					$single_appstage='single-phone';
+					$single_appstage='single-desktop';
 				}else{
 					$single_appstage='';
 				}

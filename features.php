@@ -30,7 +30,7 @@
 				$device_back_appstage=of_get_option('feature_'.$i.'_devices_back_radio');
 				
 				if ($device_back_appstage=="none"){
-					$single='single-phone';
+					$single='single-desktop';
 				}else{
 					$single='';
 				}
