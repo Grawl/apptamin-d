@@ -731,6 +731,16 @@ function my_theme_register_required_plugins() {
 
 }
 
-
-
+add_image_size( 'screenshot-iMac-front', 416, 236, true );
+function my_insert_custom_image_sizes( $sizes ) {
+	global $_wp_additional_image_sizes;
+	if ( empty($_wp_additional_image_sizes) )
+		return $sizes;
+	foreach ( $_wp_additional_image_sizes as $id => $data ) {
+		if ( !isset($sizes[$id]) )
+			$sizes[$id] = ucfirst( str_replace( '-', ' ', $id ) );
+	}
+	return $sizes;
+}
+add_filter( 'image_size_names_choose', 'my_insert_custom_image_sizes' );
 ?>
