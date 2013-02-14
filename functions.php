@@ -731,7 +731,7 @@ function my_theme_register_required_plugins() {
 
 }
 
-add_image_size( 'screenshot-iMac-front', 416, 236, true );
+add_image_size( 'screenshot-imac21-front', 417, 238, true );
 function my_insert_custom_image_sizes( $sizes ) {
 	global $_wp_additional_image_sizes;
 	if ( empty($_wp_additional_image_sizes) )

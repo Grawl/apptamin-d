@@ -1,79 +1,82 @@
 #scroller
-    margin: 0 auto
-    width: 980px
-    position: relative
-    overflow: hidden
-    #scroller-content
-        width: 10000px
+	margin: 0 auto
+	width: 980px
+	position: relative
+	overflow: hidden
+	#scroller-content
+		width: 10000px
 .app-box
-    min-height: 520px
-    width: 960px
-    position: relative
-    float: left
-    display: block
-    .feature
-        left: 5px
-        width: $desktop-width
-        top: 10px
-    &.app-content-left
-        .feature
-            left: 640px
-.app-box.app-content-left .imac,.app-box.app-content-left .iphone5
-    left: 0px
-.app-box.app-content-left .androidS2,.app-box.app-content-left .androidS3
-    left: -35px
-.app-box.app-content-left .imac.back,.app-box.app-content-left .iphone5.back
-    left: 138px
-.app-box.app-content-left .androidS2.back,.app-box.app-content-left .androidS3.back
-    left: 100px
+	min-height: 520px
+	width: 960px
+	margin-left: 20px
+	position: relative
+	float: left
+	display: block
+	.feature
+		left: 5px
+		width: $desktop-width
+		top: 10px
+	&.app-content-left
+		.imac21,
+		.iphone5
+			left: 0px
+			&.back
+				left: 138px
+		.androidS2,
+		.androidS3
+			left: -35px
+			&.back
+				left: 100px
+		a
+			&.app-icon
+				float: left
+				margin-right: 30px
+				margin-left: 0px
+		.app-content
+			float: left
+			text-align: left
+			.download-buttons
+				a
+					float: left
+					margin-left: 0px
+					margin-right: 10px
+		.app-name
+			h1
+		.feature
+			position: absolute
+			left: 500px
 a
-    &.app-icon
-        float: right
-        margin-left: 30px
-.app-content-left
-    a
-        &.app-icon
-            float: left
-            margin-right: 30px
-            margin-left: 0px
-    .app-content
-        float: left
-        text-align: left
-        .download-buttons
-            a
-                float: left
-                margin-left: 0px
-                margin-right: 10px
-    .app-name
-        h1
+	&.app-icon
+		float: right
+		margin-left: 30px
 .app-name
-    padding-right: 0px
-    padding-top: 15px
-    h1
-        font-size: 3.8em
-        font-weight: normal
-        line-height: 100px
+	padding-right: 0px
+	padding-top: 15px
+	h1
+		font-size: 3.8em
+		font-weight: normal
+		line-height: 100px
 .app-content
-    width: 500px
-    text-align: right
-    float: right
+	width: 480px
+	text-align: right
+	float: right
 .app-description
-    line-height: 24px
-    padding-top: 70px
-    h2
-        font-size: 1.4em
-        line-height: 28px
-        font-weight: normal
-        padding-right: 0px
-        padding-left: 0px
-        padding-bottom: 20px
-        span
-            color: #111
-    &.video-on
-        h2
-            width: 400px
-            float: left
-            padding-bottom: 0px
-            padding-top: 15px
-    p
-        padding-top: 8px
+	line-height: 24px
+	padding-top: 70px
+	h2
+		font-size: 1.4em
+		line-height: 28px
+		font-weight: normal
+		padding-right: 0px
+		padding-left: 0px
+		padding-bottom: 20px
+		span
+			color: #111
+	&.video-on
+		h2
+			width: 400px
+			float: left
+			padding-bottom: 0px
+			padding-top: 15px
+	p
+		padding-top: 8px

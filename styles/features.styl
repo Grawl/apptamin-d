@@ -44,16 +44,16 @@ ul
     left: 0px
     height: 400px
     float: left
-    .imac
+    .imac21
         position: absolute
-        background: url(images/device_imac_front.png)
+        background: url(images/device_imac21_front.png)
         background-repeat: no-repeat
         width: $desktop-width
         height: 365px
         z-index: 3
         left: 0
         &.back
-            background: url(images/device_imac_back.png)
+            background: url(images/device_imac21_back.png)
             background-repeat: no-repeat
             top: 50px
             left: 0px
@@ -70,16 +70,17 @@ ul
             position: absolute
             &.screenshot
                 left: 17px
-                top: 17px
+                top: 16px
                 z-index: 9
         .glare
             position: absolute
-            background: url(images/glare_imac.png)
+            $image = 'images/glare_imac21.png'
+            background: url($image)
             background-repeat: no-repeat
-            width: 77px
-            height: 203px
-            left: 128px
-            top: 75px
+            width: image-size('../'+$image)[0]
+            height: image-size('../'+$image)[1]
+            left: 182px
+            top: 15px
             z-index: 10
     .iphone5
         position: absolute
@@ -203,7 +204,7 @@ ul
                 height: 284px
 .feature.single-desktop
 	.back
-		&.imac,
+		&.imac21,
 		&.iphone5,
 		&.androidS2,
 		&.androidS3
@@ -215,20 +216,20 @@ ul
 	    left: 5px
 .imgright
 	.feature
-		.imac,
+		.imac21,
 		.iphone5
 		    left: 0px
 		 .androidS2,
 		 .androidS3
 		    left: -30px
-		.imac.back,
+		.imac21.back,
 		.iphone5.back
 		    left: 138px
 		.androidS2.back,
 		.androidS3.back
 		    left: 100px
 		&.single-desktop
-			.imac,
+			.imac21,
 			.iphone5
 		    	left: 40px
 		&.single-desktop
