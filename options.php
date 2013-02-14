@@ -26,8 +26,8 @@ function optionsframework_options() {
 
 	// Radio data
 	//$smartphones_array = array("iphone" => "iphone","android" => "android");
-	$smartphones_array = array("none" => "None", "imac21" => "iMac 21\"", "imac27" => "iMac 27\"", "android" =>"Android (Galaxy S2)", "android2" => "Android (Galaxy S3)");
-	$devices_front_array = array("none" => "None", "imac21" => "iMac 21\"", "imac27" => "iMac 27\"", "androidS2" =>"Android (Samsung Galaxy S2)", "androidS3" => "Android (Samsung Galaxy S3)");
+	$smartphones_array = array("none" => "None", "imac" => "iMac", "macbook-pro" => "MacBook Pro", "macbook-air" => "MacBook Air", "android2" => "Android (Galaxy S3)");
+	$devices_front_array = array("none" => "None", "imac" => "iMac", "macbook-pro" => "MacBook Pro", "macbook-air" => "MacBook Air", "androidS3" => "Android (Samsung Galaxy S3)");
 	$devices_back_array = $devices_front_array;
 
 	// Multicheck Array
@@ -166,7 +166,7 @@ function optionsframework_options() {
 		"options" => $devices_front_array);	
 		
 	$options[] = array(
-		"desc" => "Select the device on which the picture was taken, or is appropriate for the aspect ratio of the screen",
+		"desc" => "",
 		"type" => "info",
 		"class" => "special first");
 		
@@ -179,13 +179,14 @@ function optionsframework_options() {
 		
 			
 	$options[] = array( "name" => "App Screenshot for front device",
-		"desc" => "Upload your app screenshot for the front device. We recommend .jpg files with the following sizes : iPhone 4S (186px*279px), iPhone 5(185px*328px), Samsung Galaxy S2 (186px*310px), Samsung Galaxy S3 (192px*341px).",
+		"desc" => "Upload your app screenshot for the front device. Choose aspect ratio based on chosen device and it's position before clicking “Use This Image”",
 		"id" => "app_screenshot_1_uploader",
 		"type" => "upload",
 		"class" => "recommended");
 		
 	$options[] = array( "name" => "App Screenshot for back device — not needed if 'none' selected as back device",
-		"desc" => "Upload your app screenshot for the back device. We recommend .jpg files with the following sizes : iPhone 4S (186px*279px), iPhone 5(185px*328px), Samsung Galaxy S2 (186px*310px), Samsung Galaxy S3 (192px*341px).",
+		"desc" => "Upload your app screenshot for the front device. Choose aspect ratio based on chosen device and it's position before clicking “Use This Image”",
+		"id" => "app_screenshot_1_uploader.",
 		"id" => "app_screenshot_2_uploader",
 		"type" => "upload");
 

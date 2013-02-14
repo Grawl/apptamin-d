@@ -423,13 +423,13 @@ body.home div.p4 {
 /* line 19 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
 
 /* line 20 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
-.app-box.app-content-left .imac21,
+.app-box.app-content-left .imac,
 .app-box.app-content-left .iphone5 {
   left: 0px;
 }
 
 /* line 22 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
-.app-box.app-content-left .imac21.back,
+.app-box.app-content-left .imac.back,
 .app-box.app-content-left .iphone5.back {
   left: 138px;
 }
@@ -721,9 +721,9 @@ ul.features li .imgwrap {
 }
 
 /* line 47 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.feature .imac21 {
+.feature .imac {
   position: absolute;
-  background: url("images/device_imac21_front.png");
+  background: url("images/device_imac_front.png");
   background-repeat: no-repeat;
   width: 450px;
   height: 365px;
@@ -732,8 +732,8 @@ ul.features li .imgwrap {
 }
 
 /* line 55 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.feature .imac21.back {
-  background: url("images/device_imac21_back.png");
+.feature .imac.back {
+  background: url("images/device_imac_back.png");
   background-repeat: no-repeat;
   top: 50px;
   left: 0px;
@@ -744,7 +744,7 @@ ul.features li .imgwrap {
 }
 
 /* line 64 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.feature .imac21.back img {
+.feature .imac.back img {
   margin-left: 15px;
   margin-top: 62px;
   width: 152px;
@@ -752,21 +752,21 @@ ul.features li .imgwrap {
 }
 
 /* line 69 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.feature .imac21 img {
+.feature .imac img {
   position: absolute;
 }
 
 /* line 71 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.feature .imac21 img.screenshot {
+.feature .imac img.screenshot {
   left: 17px;
   top: 16px;
   z-index: 9;
 }
 
 /* line 75 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.feature .imac21 .glare {
+.feature .imac .glare {
   position: absolute;
-  background: url("images/glare_imac21.png");
+  background: url("images/glare_imac.png");
   background-repeat: no-repeat;
   width: 253px;
   height: 239px;
@@ -952,7 +952,7 @@ ul.features li .imgwrap {
 /* line 206 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
 
 /* line 207 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.feature.single-desktop .back.imac21,
+.feature.single-desktop .back.imac,
 .feature.single-desktop .back.iphone5,
 .feature.single-desktop .back.androidS2,
 .feature.single-desktop .back.androidS3 {
@@ -975,7 +975,7 @@ ul.features li .imgwrap {
 /* line 214 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
 
 /* line 215 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.imgright .feature .imac21,
+.imgright .feature .imac,
 .imgright .feature .iphone5 {
   left: 0px;
 }
@@ -987,7 +987,7 @@ ul.features li .imgwrap {
 }
 
 /* line 219 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.imgright .feature .imac21.back,
+.imgright .feature .imac.back,
 .imgright .feature .iphone5.back {
   left: 138px;
 }
@@ -1001,7 +1001,7 @@ ul.features li .imgwrap {
 /* line 223 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
 
 /* line 224 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
-.imgright .feature.single-desktop .imac21,
+.imgright .feature.single-desktop .imac,
 .imgright .feature.single-desktop .iphone5 {
   left: 40px;
 }
