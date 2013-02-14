@@ -1,0 +1,2398 @@
+
+/* line 1 : /Applications/CodeKit.app/Contents/Resources/engines/stylus/lib/functions/index.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/library.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+body,
+input,
+textarea {
+  font-family: Verdana, Arial, Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+/* line 5 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+input[type="text"] {
+  padding: 2px 4px 2px 4px;
+  height: 25px;
+  line-height: 25px;
+  color: #999;
+  border: 1px solid #b3b3b3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 14 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+textarea {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #b3b3b3;
+}
+
+/* line 19 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+body {
+  background-color: #000;
+  background: url("images/bg.jpg");
+  color: #555;
+}
+
+/* line 23 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+p,
+ul,
+ol,
+dd,
+pre {
+  margin-bottom: 22px;
+}
+
+/* line 25 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+pre,
+code {
+  font: 14px Monaco, monospace;
+  line-height: 22px;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+blockquote {
+  color: #666;
+  font-style: italic;
+}
+
+/* line 31 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+table {
+  border: 1px solid #ccc;
+  border-width: 1px 1px 0 1px;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0 0 22px 0;
+  text-align: left;
+}
+
+/* line 38 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+caption {
+  text-align: left;
+}
+
+/* line 40 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 42 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+th,
+td {
+  padding: 0.7em 1.25em;
+}
+
+/* line 44 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+hr {
+  border: 0;
+  height: 1px;
+  margin-bottom: 22px;
+}
+
+/* line 48 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+hr.styled {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  margin-top: 20px;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+/* line 58 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+
+/* line 59 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+a:link {
+  color: #2a85e8;
+}
+
+/* line 61 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+a:visited {
+  color: #111;
+}
+
+/* line 63 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/global.styl */
+a:active,
+a:hover {
+  color: #11639d;
+}
+
+/* line 65 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#header {
+  z-index: 2;
+  min-height: 50px;
+  position: relative;
+}
+
+/* line 5 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#newsletter {
+  display: block;
+  position: absolute;
+  background: url("images/newsletter.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 100px;
+  height: 100px;
+}
+
+/* line 13 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#branding {
+  display: block;
+  height: 80px;
+  width: 960px;
+}
+
+/* line 17 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#branding h1 {
+  float: right;
+  clear: none;
+  color: #555;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 38px;
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* line 27 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#branding #blog-description {
+  height: 48px;
+  display: block;
+  float: right;
+  width: 500px;
+}
+
+/* line 32 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#blog-title {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  padding: 25px 0 0px 0;
+}
+
+/* line 37 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#blog-title a {
+  text-decoration: none;
+}
+
+/* line 39 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#blog-title a:active,
+#blog-title a:hover,
+#blog-description {
+  color: #eee;
+  font-size: 13px;
+}
+
+/* line 43 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/header.styl */
+#header-social {
+  float: left;
+  padding-top: 28px;
+}
+
+/* line 46 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.notif {
+  float: left;
+  padding-top: 40px;
+  width: 100%;
+}
+
+/* line 5 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.notif form {
+  margin: 0;
+}
+
+/* line 7 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.notif input {
+  padding: 2px 4px 2px 4px;
+  height: 46px;
+  line-height: 46px;
+  color: #999;
+  margin-top: 0px;
+  float: right;
+  border: 1px solid #b3b3b3;
+  width: 40%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 19 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.notif h2 {
+  padding-bottom: 10px;
+}
+
+/* line 21 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.notif fieldset {
+  border: none;
+  width: 500px;
+}
+
+/* line 24 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.notif input#mc-embedded-subscribe_appstage {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 1.4em;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.notif input#mce-EMAIL_appstage {
+  height: 40px;
+  line-height: 40px;
+  width: 45%;
+  display: block;
+}
+
+/* line 33 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+
+/* line 34 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+#header-social .notif {
+  padding-top: 0px;
+}
+
+/* line 36 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+#header-social .notif input {
+  height: 30px;
+  width: 100px;
+}
+
+/* line 39 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+#header-social .notif fieldset {
+  width: 100%;
+}
+
+/* line 41 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+#header-social .notif input#mc-embedded-subscribe {
+  margin-left: 10px;
+  cursor: pointer;
+  line-height: 26px;
+}
+
+/* line 45 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+#header-social .notif input#mce-EMAIL {
+  width: 130px;
+  height: 25px;
+  line-height: 25px;
+}
+
+/* line 49 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+
+/* line 50 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+
+/* line 51 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.app-content-left .notif input {
+  float: left;
+}
+
+/* line 53 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+.mc-field-group {
+  float: left;
+}
+
+/* line 55 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+#mce-responses {
+  clear: both;
+  padding-top: 5px;
+}
+
+/* line 58 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+
+/* line 59 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mailchimp.styl */
+input.button {
+  background-color: #333;
+  color: #fff;
+}
+
+/* line 62 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+
+/* line 2 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+
+/* line 3 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home #main {
+  margin: 0;
+  width: 100%;
+  padding-top: 0px;
+}
+
+/* line 7 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home #app-stage {
+  clear: both;
+}
+
+/* line 9 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home #container {
+  float: none;
+  margin: 0;
+  width: 100%;
+  background: none;
+}
+
+/* line 14 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home #content {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 0 0 0px;
+}
+
+/* line 18 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home .hentry {
+  width: inherit;
+}
+
+/* line 20 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+
+/* line 21 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home div.p1 {
+  font-size: 120%;
+}
+
+/* line 23 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home div.p1 img {
+  float: left;
+  margin-right: 30px;
+}
+
+/* line 26 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home div.p2 {
+  clear: left;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home div.p3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* line 31 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/homepage.styl */
+body.home div.p2,
+body.home div.p3,
+body.home div.p4 {
+  width: 270px;
+  float: left;
+  margin-top: 22px;
+}
+
+/* line 35 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+#scroller {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 6 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+#scroller #scroller-content {
+  width: 10000px;
+}
+
+/* line 8 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box {
+  min-height: 520px;
+  width: 960px;
+  margin-left: 20px;
+  position: relative;
+  float: left;
+  display: block;
+}
+
+/* line 15 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box .feature {
+  left: 5px;
+  width: 450px;
+  top: 10px;
+}
+
+/* line 19 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+
+/* line 20 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box.app-content-left .imac21,
+.app-box.app-content-left .iphone5 {
+  left: 0px;
+}
+
+/* line 22 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box.app-content-left .imac21.back,
+.app-box.app-content-left .iphone5.back {
+  left: 138px;
+}
+
+/* line 24 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box.app-content-left .androidS2,
+.app-box.app-content-left .androidS3 {
+  left: -35px;
+}
+
+/* line 26 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box.app-content-left .androidS2.back,
+.app-box.app-content-left .androidS3.back {
+  left: 100px;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+
+/* line 29 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box.app-content-left a.app-icon {
+  float: left;
+  margin-right: 30px;
+  margin-left: 0px;
+}
+
+/* line 33 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box.app-content-left .app-content {
+  float: left;
+  text-align: left;
+}
+
+/* line 36 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+
+/* line 37 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box.app-content-left .app-content .download-buttons a {
+  float: left;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+/* line 41 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+
+/* line 43 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-box.app-content-left .feature {
+  position: absolute;
+  left: 500px;
+}
+
+/* line 46 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+
+/* line 47 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+a.app-icon {
+  float: right;
+  margin-left: 30px;
+}
+
+/* line 50 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-name {
+  padding-right: 0px;
+  padding-top: 15px;
+}
+
+/* line 53 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-name h1 {
+  font-size: 3.8em;
+  font-weight: normal;
+  line-height: 100px;
+}
+
+/* line 57 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-content {
+  width: 480px;
+  text-align: right;
+  float: right;
+}
+
+/* line 61 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-description {
+  line-height: 24px;
+  padding-top: 70px;
+}
+
+/* line 64 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-description h2 {
+  font-size: 1.4em;
+  line-height: 28px;
+  font-weight: normal;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+/* line 71 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-description h2 span {
+  color: #111;
+}
+
+/* line 73 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+
+/* line 74 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-description.video-on h2 {
+  width: 400px;
+  float: left;
+  padding-bottom: 0px;
+  padding-top: 15px;
+}
+
+/* line 79 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/appstage.styl */
+.app-description p {
+  padding-top: 8px;
+}
+
+/* line 81 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+.download-buttons {
+  display: block;
+  clear: both;
+  padding-right: 0px;
+  padding-top: 40px;
+  float: right;
+}
+
+/* line 7 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+a.masdl,
+a.windows-store-dl {
+  display: block;
+  float: right;
+}
+
+/* line 10 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+
+/* line 11 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+a.windows-store-dl {
+  margin-left: 10px;
+  background: url("images/WindowsStore_badge_black_en_small_40x125.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 125px;
+  height: 40px;
+}
+
+/* line 18 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+a.masdl {
+  background: url("images/Download_on_the_Mac_App_Store_Badge_US-UK_165x40.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 165px;
+  height: 40px;
+}
+
+/* line 24 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+.app-video {
+  display: block;
+  float: right;
+  z-index: 1;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+.app-video p {
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  width: 150px;
+}
+
+/* line 33 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+.social-buttons {
+  display: block;
+  clear: both;
+  float: right;
+  padding-top: 20px;
+}
+
+/* line 38 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+.tweet-button {
+  float: right;
+  width: 120px;
+  margin-top: 2px;
+}
+
+/* line 42 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+.fb-button {
+  float: right;
+}
+
+/* line 44 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+.po-button {
+  float: right;
+}
+
+/* line 46 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/buttons.styl */
+.app-content-left .download-buttons,
+.app-content-left .social-buttons,
+.app-content-left .tweet-button,
+.app-content-left .fb-button,
+.app-content-left .po-button {
+  float: left;
+}
+
+/* line 48 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 2 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+ul.features {
+  list-style-type: none;
+  margin: 0px;
+  clear: both;
+}
+
+/* line 6 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+ul.features > li {
+  clear: both;
+  display: block;
+  padding-top: 30px;
+  width: 100%;
+}
+
+/* line 11 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 12 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+ul.features li.imgright {
+  background-position: 0px 20px;
+}
+
+/* line 14 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+ul.features li.imgright .imgwrap {
+  background-position: 0px 20px;
+}
+
+/* line 16 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+ul.features li .imgwrap {
+  width: 960px;
+  margin: 0 auto;
+  height: 510px;
+  position: relative;
+}
+
+/* line 21 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 22 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgleft .features-img {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 25 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgleft .features-txt {
+  float: right;
+}
+
+/* line 27 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright .features-img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* line 31 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright .feature {
+  position: relative;
+  left: 640px;
+}
+
+/* line 34 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgleft h3,
+.imgleft h4 {
+  clear: none;
+  float: left;
+  margin-left: 20px;
+}
+
+/* line 38 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright h3,
+.imgright h4 {
+  clear: none;
+  float: left;
+  margin-left: 30px;
+}
+
+/* line 42 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature {
+  position: relative;
+  left: 0px;
+  height: 400px;
+  float: left;
+}
+
+/* line 47 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .imac21 {
+  position: absolute;
+  background: url("images/device_imac21_front.png");
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 365px;
+  z-index: 3;
+  left: 0;
+}
+
+/* line 55 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .imac21.back {
+  background: url("images/device_imac21_back.png");
+  background-repeat: no-repeat;
+  top: 50px;
+  left: 0px;
+  display: block;
+  width: 180px;
+  height: 409px;
+  z-index: 2;
+}
+
+/* line 64 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .imac21.back img {
+  margin-left: 15px;
+  margin-top: 62px;
+  width: 152px;
+  height: 228px;
+}
+
+/* line 69 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .imac21 img {
+  position: absolute;
+}
+
+/* line 71 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .imac21 img.screenshot {
+  left: 17px;
+  top: 16px;
+  z-index: 9;
+}
+
+/* line 75 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .imac21 .glare {
+  position: absolute;
+  background: url("images/glare_imac21.png");
+  background-repeat: no-repeat;
+  width: 253px;
+  height: 239px;
+  left: 182px;
+  top: 15px;
+  z-index: 10;
+}
+
+/* line 85 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .iphone5 {
+  position: absolute;
+  background: url("images/device_iphone5_front_reflect.png");
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 520px;
+  z-index: 3;
+  left: 100px;
+}
+
+/* line 93 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .iphone5.back {
+  background: url("images/device_iphone5_back_reflect.png");
+  background-repeat: no-repeat;
+  top: 35px;
+  left: 0px;
+  display: block;
+  width: 180px;
+  height: 435px;
+  z-index: 2;
+}
+
+/* line 102 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .iphone5.back img {
+  margin-left: 16px;
+  margin-top: 58px;
+  width: 151px;
+  height: 268px;
+}
+
+/* line 107 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 108 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .iphone5 img.screenshot {
+  margin-left: 19px;
+  margin-top: 70px;
+  width: 185px;
+  height: 328px;
+  z-index: 9;
+}
+
+/* line 114 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .iphone5 .glare {
+  position: absolute;
+  background: url("images/glare_iphone5.png");
+  background-repeat: no-repeat;
+  width: 87px;
+  height: 203px;
+  left: 117px;
+  top: 70px;
+  z-index: 10;
+}
+
+/* line 123 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .androidS2 {
+  position: absolute;
+  background: url("images/device_androidS2_front_reflect.png");
+  background-repeat: no-repeat;
+  width: 293px;
+  height: 480px;
+  z-index: 3;
+  left: 60px;
+  top: 15px;
+}
+
+/* line 132 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 133 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .androidS2 img.screenshot {
+  margin-left: 56px;
+  margin-top: 55px;
+  width: 186px;
+  height: 310px;
+  z-index: 9;
+}
+
+/* line 139 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .androidS2 .glare {
+  position: absolute;
+  background: url("images/glare_androidS2.png");
+  background-repeat: no-repeat;
+  width: 105px;
+  height: 408px;
+  left: 149px;
+  top: 4px;
+  z-index: 10;
+}
+
+/* line 148 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .androidS3 {
+  position: absolute;
+  background: url("images/device_androidS3_front_reflect.png");
+  background-repeat: no-repeat;
+  width: 293px;
+  height: 480px;
+  z-index: 3;
+  left: 60px;
+  top: 15px;
+}
+
+/* line 157 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 158 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .androidS3 img.screenshot {
+  margin-left: 51px;
+  margin-top: 40px;
+  width: 192px;
+  height: 341px;
+  z-index: 9;
+}
+
+/* line 164 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature .androidS3 .glare {
+  position: absolute;
+  background: url("images/glare_androidS3.png");
+  background-repeat: no-repeat;
+  width: 105px;
+  height: 408px;
+  left: 149px;
+  top: 4px;
+  z-index: 10;
+}
+
+/* line 173 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 174 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.androidS2.back {
+  background: url("images/device_androidS2_back_reflect.png");
+  background-repeat: no-repeat;
+  top: 50px;
+  left: -30px;
+  display: block;
+  width: 244px;
+  height: 400px;
+  z-index: 2;
+}
+
+/* line 183 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 184 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.androidS2.back img.screenshot {
+  margin-left: 47px;
+  margin-top: 46px;
+  width: 155px;
+  height: 259px;
+}
+
+/* line 189 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 190 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.androidS3.back {
+  background: url("images/device_androidS3_back_reflect.png");
+  background-repeat: no-repeat;
+  top: 50px;
+  left: -30px;
+  display: block;
+  width: 244px;
+  height: 400px;
+  z-index: 2;
+}
+
+/* line 199 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 200 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.androidS3.back img.screenshot {
+  margin-left: 43px;
+  margin-top: 34px;
+  width: 160px;
+  height: 284px;
+}
+
+/* line 205 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 206 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 207 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature.single-desktop .back.imac21,
+.feature.single-desktop .back.iphone5,
+.feature.single-desktop .back.androidS2,
+.feature.single-desktop .back.androidS3 {
+  display: none;
+}
+
+/* line 209 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature.single-desktop .iphone5 {
+  left: 40px;
+}
+
+/* line 211 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.feature.single-desktop .androidS2,
+.feature.single-desktop .androidS3 {
+  left: 5px;
+}
+
+/* line 213 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 214 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 215 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright .feature .imac21,
+.imgright .feature .iphone5 {
+  left: 0px;
+}
+
+/* line 217 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright .feature .androidS2,
+.imgright .feature .androidS3 {
+  left: -30px;
+}
+
+/* line 219 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright .feature .imac21.back,
+.imgright .feature .iphone5.back {
+  left: 138px;
+}
+
+/* line 221 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright .feature .androidS2.back,
+.imgright .feature .androidS3.back {
+  left: 100px;
+}
+
+/* line 223 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 224 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright .feature.single-desktop .imac21,
+.imgright .feature.single-desktop .iphone5 {
+  left: 40px;
+}
+
+/* line 226 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 227 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.imgright .feature.single-desktop .androidS2,
+.imgright .feature.single-desktop .androidS3 {
+  left: 5px;
+}
+
+/* line 229 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+
+/* line 230 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.features h3 {
+  font-size: 2.1em;
+  line-height: 36px;
+  font-weight: normal;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* line 236 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.features h4 {
+  padding-top: 10px;
+  font-size: 1.2em;
+  line-height: 30px;
+}
+
+/* line 240 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.features-txt {
+  padding-top: 70px;
+  float: left;
+  width: 600px;
+}
+
+/* line 244 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/features.styl */
+.special {
+  clear: both;
+  display: block;
+  width: 100%;
+  float: left;
+  height: 100%;
+  padding: 30px 0px;
+}
+
+/* line 251 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mission-statement.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mission-statement.styl */
+
+/* line 2 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mission-statement.styl */
+
+/* line 3 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mission-statement.styl */
+body.page-template-mission-statement-php #content {
+  width: 900px;
+  overflow: hidden;
+  margin: 0 0 0 10px;
+}
+
+/* line 7 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mission-statement.styl */
+body.page-template-mission-statement-php .entry-content {
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+/* line 10 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/mission-statement.styl */
+body.page-template-mission-statement-php .hentry {
+  width: inherit;
+}
+
+/* line 12 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pullquotes.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pullquotes.styl */
+
+/* line 2 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pullquotes.styl */
+blockquote.pull-quote {
+  border-left: 1px dotted #ccc;
+  padding: 5px 0 5px 20px;
+}
+
+/* line 5 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pullquotes.styl */
+blockquote.pull-quote cite {
+  display: block;
+  text-align: right;
+}
+
+/* line 8 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pullquotes.styl */
+blockquote.pull-quote cite:before {
+  content: "—";
+}
+
+/* line 10 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pullquotes.styl */
+blockquote.pull-quote p {
+  font-size: 1.5em;
+  line-height: 1.1em;
+}
+
+/* line 13 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+.menu {
+  float: right;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  clear: both;
+}
+
+/* line 7 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+.skip-link {
+  display: none;
+}
+
+/* line 9 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+#access_wrap {
+  margin: 0 auto;
+  width: 940px;
+}
+
+/* line 12 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+#access {
+  padding: 25px 25px 5px 0px;
+  clear: right;
+  float: right;
+}
+
+/* line 16 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+.navigation {
+  color: #999;
+  line-height: 18px;
+  margin: 0px 0 22px 0;
+  overflow: hidden;
+}
+
+/* line 21 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+.navigation a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* line 24 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+.navigation .meta-nav {
+  font-style: normal;
+}
+
+/* line 26 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+.navigation a:active,
+.navigation a:hover,
+.nav-previous {
+  float: left;
+  width: 50%;
+}
+
+/* line 30 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+.nav-next {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+/* line 34 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+#nav-above,
+#nav-below {
+  width: 100%;
+}
+
+/* line 36 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+#nav-above {
+  display: none;
+}
+
+/* line 38 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+
+/* line 39 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/navigation.styl */
+.paged #nav-above {
+  display: block;
+  padding: 0 0 44px 0;
+}
+
+/* line 42 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+.sf-menu,
+.sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 5 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+.sf-menu {
+  line-height: 1;
+}
+
+/* line 7 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+.sf-menu ul {
+  position: absolute;
+  top: -999em;
+  width: 10em;
+}
+
+/* line 11 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+.sf-menu ul li {
+  width: 100%;
+}
+
+/* line 13 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+.sf-menu li {
+  float: left;
+  position: relative;
+}
+
+/* line 16 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+.sf-menu li:hover {
+  visibility: inherit;
+}
+
+/* line 18 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+.sf-menu a {
+  display: block;
+  position: relative;
+}
+
+/* line 21 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+  left: 0;
+  top: 2.5em;
+  z-index: 99;
+}
+
+/* line 25 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+  top: -999em;
+}
+
+/* line 27 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+  left: 10em;
+  top: 0;
+}
+
+/* line 30 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+  top: -999em;
+}
+
+/* line 32 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/essential.styl */
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+  left: 10em;
+  top: 0;
+}
+
+/* line 35 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+.sf-menu {
+  float: right;
+}
+
+/* line 3 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+.sf-menu a {
+  padding: 9px 13px;
+  text-decoration: none;
+}
+
+/* line 6 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+
+/* line 7 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+
+/* line 9 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+
+/* line 10 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+.sf-menu ul ul {
+  margin-top: 0;
+}
+
+/* line 12 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+.sf-menu ul a {
+  border-bottom: none;
+}
+
+/* line 14 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+
+/* line 15 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+.ie6 .sf-menu {
+  margin-bottom: -1px;
+}
+
+/* line 17 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+
+/* line 18 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+
+/* line 19 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+.windows .sf-menu a {
+  font-size: 1.4em;
+  padding: 9px 13px 10px;
+}
+
+/* line 22 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+.sf-menu .current_page_item a,
+.sf-menu .current_page_ancestor a,
+.sf-menu .current_page_parent a,
+.sf-menu a,
+.sf-menu a:visited,
+.sf-menu li:hover,
+.sf-menu li.sfHover,
+.sf-menu a:focus,
+.sf-menu a:hover,
+.sf-menu a:active {
+  outline: 0;
+}
+
+/* line 26 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/thematic-skin.styl */
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+  top: 32px;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+#main {
+  clear: both;
+  padding: 26px 0 22px 0;
+}
+
+/* line 4 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+#container {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* line 9 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+#content {
+  margin: 20px;
+  width: 580px;
+}
+
+/* line 12 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-title {
+  line-height: 18px;
+  padding: 0 0 44px 0;
+}
+
+/* line 15 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 16 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-title a:link {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+/* line 19 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-title span {
+  font-style: italic;
+}
+
+/* line 21 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-title .meta-nav {
+  font-style: normal;
+}
+
+/* line 23 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 24 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.attachment .page-title {
+  font-style: italic;
+}
+
+/* line 26 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-title a:active,
+.page-title a:hover {
+  color: #fff;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.hentry {
+  padding: 0 0 22px 0;
+}
+
+/* line 30 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 31 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.single .hentry {
+  padding: 0;
+}
+
+/* line 33 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 34 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 35 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.home #content .sticky {
+  border: 1px solid #ccc;
+  margin: 0 0 66px 0;
+  padding: 22px 20px 0 20px;
+}
+
+/* line 39 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-title {
+  font-size: 2em;
+  line-height: 34px;
+  padding: 0 0 7px 0;
+}
+
+/* line 43 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 44 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-title a:link {
+  text-decoration: none;
+}
+
+/* line 46 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-title a:active,
+.entry-title a:hover,
+.entry-meta {
+  font-style: italic;
+  line-height: 18px;
+}
+
+/* line 50 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-title a:active .author,
+.entry-title a:hover .author,
+.entry-meta .author,
+.entry-title a:active .n,
+.entry-title a:hover .n,
+.entry-meta .n {
+  font-size: 0.95em;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* line 56 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-title a:active a,
+.entry-title a:hover a,
+.entry-meta a {
+  text-decoration: none;
+}
+
+/* line 58 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-title a:active abbr,
+.entry-title a:hover abbr,
+.entry-meta abbr {
+  border: none;
+  cursor: text;
+  font-size: 0.95em;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* line 65 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-meta a:active,
+.entry-meta a:hover,
+.entry-content {
+  padding: 22px 0 0 0;
+}
+
+/* line 68 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-meta a:active h3,
+.entry-meta a:hover h3,
+.entry-content h3 {
+  font-size: 1.3em;
+  font-style: italic;
+  padding: 28px 0 14px 0;
+}
+
+/* line 72 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-meta a:active h4,
+.entry-meta a:hover h4,
+.entry-content h4 {
+  font-size: 0.95em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* line 77 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-meta a:active table,
+.entry-meta a:hover table,
+.entry-content table {
+  margin-left: 1px;
+}
+
+/* line 79 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-meta a:active embed,
+.entry-meta a:hover embed,
+.entry-content embed {
+  margin: 0 0 22px 0;
+}
+
+/* line 81 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 82 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 83 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 84 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-template-template-page-blog-php .post a.thumb {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 22px;
+}
+
+/* line 90 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-template-template-page-blog-php .hentry {
+  padding-bottom: 40px;
+}
+
+/* line 92 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-content h1,
+.entry-content h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 28px 0 14px 0;
+}
+
+/* line 96 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-utility {
+  clear: both;
+  color: #666;
+  line-height: 18px;
+  margin: 0 0 44px 0;
+}
+
+/* line 101 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-utility a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* line 104 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.entry-utility a:active,
+.entry-utility a:hover,
+.edit-link {
+  clear: both;
+  display: block;
+}
+
+/* line 108 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-link {
+  font-weight: bold;
+  line-height: 18px;
+  margin: 0 0 22px 0;
+  padding: 22px 0 0 0;
+  word-spacing: 0.5em;
+}
+
+/* line 114 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-link a {
+  border: 1px solid #ccc;
+  color: #666;
+  font-weight: normal;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+}
+
+/* line 120 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.page-link a:active,
+.page-link a:hover,
+ul#links-page,
+ul#archives-page {
+  list-style: none;
+  margin-left: 0;
+  overflow: hidden;
+}
+
+/* line 125 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+
+/* line 126 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+li.content-column {
+  float: left;
+  margin-right: 20px;
+  width: 45%;
+}
+
+/* line 130 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.gallery {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0 22px 0;
+}
+
+/* line 136 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.gallery .gallery-row {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* line 141 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.gallery .gallery-item {
+  overflow: hidden;
+  float: left;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+/* line 148 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.gallery .gallery-item img,
+.gallery .gallery-item img.thumbnail {
+  max-width: 89%;
+  height: auto;
+  padding: 1%;
+  margin: 0 auto;
+  border: none !important;
+}
+
+/* line 154 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.gallery-caption {
+  margin-left: 0;
+}
+
+/* line 156 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+.wp-caption-text,
+.gallery-caption {
+  color: #666;
+  line-height: 18px;
+}
+
+/* line 159 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+#author-info {
+  margin: 0 0 44px 0;
+  overflow: hidden;
+}
+
+/* line 162 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/content.styl */
+#author-info .avatar {
+  float: left;
+  margin: 0.3em 1em 0 0;
+}
+
+/* line 165 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/attachments.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/attachments.styl */
+.attachment-jpeg #container,
+.attachment-png #container {
+  width: 100%;
+}
+
+/* line 3 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/attachments.styl */
+.attachment-jpeg #content,
+.attachment-png #content {
+  width: 930px;
+}
+
+/* line 5 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/attachments.styl */
+.attachment-jpeg #comments,
+.attachment-png #comments {
+  width: 540px;
+  overflow: hidden;
+}
+
+/* line 8 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/attachments.styl */
+.attachment-jpeg .main-aside,
+.attachment-png .main-aside {
+  display: none;
+}
+
+/* line 10 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments {
+  clear: both;
+  padding: 22px 0 0 0;
+}
+
+/* line 4 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments code {
+  line-height: 18px;
+}
+
+/* line 6 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 0 0 18px 0;
+}
+
+/* line 11 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments,
+#comments input,
+#comments textarea {
+  line-height: 18px;
+}
+
+/* line 13 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list {
+  padding: 0 0 18px 0;
+}
+
+/* line 15 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list ol {
+  margin: 0 0 18px 0;
+}
+
+/* line 17 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list li {
+  padding: 18px 1.5em 0 1.5em;
+  position: relative;
+}
+
+/* line 20 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list li.alt,
+#comments-list li.bypostauthor,
+#comments-list li .avatar {
+  position: absolute;
+  top: 22px;
+  left: 1.5em;
+  width: 36px;
+  height: 36px;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+
+/* line 29 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list ul li {
+  border: 1px solid #ccc;
+  margin: 0 0 18px 0;
+}
+
+/* line 32 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list ul #respond {
+  border: 1px solid #ccc;
+  margin: 0;
+}
+
+/* line 35 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list .comment-author {
+  font-weight: bold;
+  padding: 9px 0 0 46px;
+}
+
+/* line 38 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list .comment-meta {
+  color: #666;
+  font-size: 0.95em;
+  padding: 0 0 9px 46px;
+}
+
+/* line 42 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list .comment-meta a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* line 45 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list #respond {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 18px 0;
+  padding: 18px 1.5em;
+}
+
+/* line 49 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list ol,
+#comments-list ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 52 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list .comment-meta a:active,
+#comments-list .comment-meta a:hover,
+.comment-reply-link {
+  font-size: 0.95em;
+  padding: 0 0 18px 0;
+  text-align: right;
+}
+
+/* line 57 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#comments-list .comment-meta a:active a,
+#comments-list .comment-meta a:hover a,
+.comment-reply-link a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* line 60 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.comment-reply-link a:active,
+.comment-reply-link a:hover,
+.comment-navigation {
+  font-weight: bold;
+  padding: 0 0 18px 0;
+  margin-right: 0.5em;
+}
+
+/* line 65 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.comment-reply-link a:active a,
+.comment-reply-link a:hover a,
+.comment-navigation a {
+  border: 1px solid #ccc;
+  font-weight: normal;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+}
+
+/* line 70 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.comment-navigation a:active,
+.comment-navigation a:hover {
+  color: #ff4b33;
+}
+
+/* line 72 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.comment-navigation a,
+.comment-navigation span {
+  margin-right: 0.5em;
+}
+
+/* line 74 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+
+/* line 75 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#trackbacks-list .comment-content {
+  position: absolute;
+  left: -10000px;
+}
+
+/* line 78 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#respond {
+  margin-bottom: 22px;
+  overflow: hidden;
+  padding: 18px 0 0 0;
+  position: relative;
+}
+
+/* line 83 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#respond .required {
+  color: #ff4b33;
+  font-weight: bold;
+}
+
+/* line 86 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#cancel-comment-reply {
+  font-size: 0.95em;
+  position: absolute;
+  top: 18px;
+  right: 1.5em;
+a
+}
+
+/* line 92 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+
+/* line 93 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.form-section label,
+.form-section input {
+  margin: 0 0 18px 0;
+  width: 98%;
+}
+
+/* line 97 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.form-section textarea {
+  width: 99%;
+}
+
+/* line 99 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+
+/* line 100 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#form-allowed-tags p {
+  color: #666;
+  font-size: 0.95em;
+  margin: 0;
+}
+
+/* line 104 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#form-allowed-tags span {
+  font-style: italic;
+}
+
+/* line 106 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+#form-allowed-tags code {
+  font-size: 0.95em;
+  line-height: normal;
+}
+
+/* line 109 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.form-submit {
+  padding: 18px 0 0 0;
+  text-align: right;
+}
+
+/* line 112 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.form-submit input[type="submit"] {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* line 120 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.subscribe-to-comments {
+  color: #666;
+  float: left;
+  font-size: 0.95em;
+  margin: 0;
+  padding: 18px 0 0 0;
+}
+
+/* line 126 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.solo-subscribe-to-comments {
+  color: #666;
+  font-size: 0.95em;
+  padding: 18px 0 0 0;
+}
+
+/* line 130 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/comments.styl */
+.comment_license {
+  color: #666;
+  clear: both;
+  font-size: 0.95em;
+  margin: 0;
+  padding: 18px 0 0 0;
+}
+
+/* line 136 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside,
+.aside input {
+  line-height: 18px;
+  margin-bottom: 6px;
+}
+
+/* line 4 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside p,
+.aside ul,
+.aside ol,
+.aside dd,
+.aside pre {
+  margin-bottom: 18px;
+}
+
+/* line 6 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside pre,
+.aside code {
+  line-height: 18px;
+}
+
+/* line 8 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+
+/* line 9 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+
+/* line 10 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+
+/* line 13 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside a,
+.aside h3 {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 22px;
+}
+
+/* line 18 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside a a,
+.aside h3 a {
+  text-decoration: none;
+}
+
+/* line 20 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside caption {
+  font-size: 0.95em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* line 25 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside ul ul {
+  list-style: disc;
+  margin: 0 0 0px 20px;
+}
+
+/* line 31 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside ul ul li {
+  padding: 4px 0;
+}
+
+/* line 33 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside ul ul ul {
+  margin-bottom: 0;
+}
+
+/* line 35 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside table {
+  border: none;
+}
+
+/* line 37 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside thead {
+  border: 1px solid #ccc;
+}
+
+/* line 39 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside tbody {
+  border: 1px solid #ccc;
+}
+
+/* line 41 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+
+/* line 42 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside tfoot tr {
+  border: none;
+}
+
+/* line 44 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside tfoot td {
+  border-color: transparent;
+}
+
+/* line 46 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside #searchsubmit {
+  display: none;
+}
+
+/* line 48 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside .current_page_item .page_item a:hover,
+.aside .current_page_item .page_item a:active,
+.aside a:active,
+.aside a:hover,
+.aside form,
+.aside table {
+  margin-bottom: 22px;
+}
+
+/* line 52 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.aside th,
+.aside td {
+  border-right: 1px solid #ccc;
+  padding: 0.25em 0.8em;
+}
+
+/* line 55 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.widget_tag_cloud {
+  margin: 0 0 22px 0;
+}
+
+/* line 57 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+
+/* line 58 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.main-aside ul {
+  padding: 0 20px;
+  margin-bottom: 0px;
+}
+
+/* line 61 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.main-aside ul ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 64 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.main-aside > ul {
+  background: url("images/bg_side.png") repeat-y scroll 0 0 transparent;
+}
+
+/* line 66 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.main-aside h3 {
+  padding-top: 5px;
+}
+
+/* line 68 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+#primary {
+  padding: 0px 0px 20px 0px;
+  margin-bottom: 22px;
+  color: #555;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 75 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+
+/* line 76 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+#primary .main-aside h3 {
+  padding-top: 5px;
+}
+
+/* line 78 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.side-top {
+  display: block;
+  width: 100%;
+  height: 20px;
+  background: #f00;
+  background: url("images/bg_side-top.png");
+  background-repeat: none;
+}
+
+/* line 85 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.side-bottom {
+  display: block;
+  width: 100%;
+  height: 20px;
+  background: #f00;
+  background: url("images/bg_side-bottom.png");
+  background-repeat: none;
+}
+
+/* line 92 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+#secondary {
+  padding: 18px 0 0 0;
+  color: #555;
+}
+
+/* line 95 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+
+/* line 96 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+#content .aside {
+  border: 1px solid #ccc;
+  margin: 0 0 22px 0;
+  padding: 18px 0 0 0;
+}
+
+/* line 100 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+#content .aside ul {
+  padding: 0 20px;
+}
+
+/* line 102 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+#content .aside ul ul {
+  padding: 0;
+}
+
+/* line 104 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+#content .aside h3 {
+  font-weight: normal;
+  font-size: 1.3em;
+  font-style: italic;
+  padding: 0 0 7px 0;
+  text-transform: none;
+}
+
+/* line 110 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+#subsidiary {
+  padding: 33px 0 0 0;
+}
+
+/* line 112 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.app-widgets {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 115 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.app-widgets ul {
+  list-style-type: none;
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 121 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.app-widget-item {
+  float: left;
+  display: block;
+  width: 300px;
+  padding-bottom: 30px;
+  margin: 0px 0px 0px 0px;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+/* line 129 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.app-widget-item h3 {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-bottom: 12px;
+}
+
+/* line 133 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.app-widget-item p {
+  margin: 0;
+  line-height: 24px;
+}
+
+/* line 136 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.twtr-hd h3,
+.twtr-hd h4 {
+  clear: none;
+}
+
+/* line 138 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/aside.styl */
+.twtr-widget {
+  margin-top: 23px;
+}
+
+/* line 140 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+#footer {
+  margin-top: 22px;
+  padding-top: 10px;
+  background: #111;
+  color: #f5f5f5;
+}
+
+/* line 6 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+
+/* line 7 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+#footer a:visited {
+  color: #999;
+}
+
+/* line 9 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+#footer h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 13 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-cont {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+/* line 16 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-cont ul {
+  list-style-type: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 21 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: left;
+  width: 290px;
+  padding: 10px 0px 10px 0px;
+}
+
+/* line 28 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc.last {
+  margin-right: 0px;
+}
+
+/* line 30 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc ul {
+  float: left;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* line 34 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc ul li {
+  float: left;
+  clear: both;
+}
+
+/* line 37 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc ul li a {
+  text-decoration: none;
+}
+
+/* line 39 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 41 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc ul.social {
+  margin-top: 10px;
+}
+
+/* line 43 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc ul.social li {
+  clear: none;
+  float: left;
+  display: block;
+  margin-right: 10px;
+}
+
+/* line 48 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc ul.social li#last {
+  margin-right: 0px;
+}
+
+/* line 50 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+.footer-bloc ul.twitter li,
+.footer-bloc ul.blog li {
+  padding: 7px 0px 7px 0px;
+  border-bottom: 1px dashed #777;
+  width: 100%;
+}
+
+/* line 54 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+#siteinfo {
+  background: #111;
+  color: #f5f5f5;
+  font-size: 0.75em;
+  line-height: 18px;
+  padding: 24px 0 24px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 62 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/footer.styl */
+#siteinfo a {
+  color: #999;
+}
+
+/* line 64 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+
+/* line 1 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+.wp-pagenavi {
+  margin: 0 0 0 -0.5em;
+  padding: 0.5em 0;
+}
+
+/* line 4 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+
+/* line 5 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+.wp-pagenavi a:visited {
+  border: 1px solid #ccc !important;
+  color: #666 !important;
+}
+
+/* line 8 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+.wp-pagenavi a:hover {
+  border: 1px solid #ccc !important;
+  color: #ff4b33 !important;
+}
+
+/* line 11 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+.wp-pagenavi a:active {
+  border: 1px solid #ccc !important;
+  color: #ff4b33 !important;
+}
+
+/* line 14 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+
+/* line 15 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+.wp-pagenavi span.pages {
+  border: none !important;
+  color: #666 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 20 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+.wp-pagenavi span.current {
+  border: none !important;
+  color: #666 !important;
+  font-weight: normal !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 26 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+.wp-pagenavi span.extend {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  margin: 2px;
+  padding: 2px 4px;
+}
+
+/* line 32 : /Users/grawlcore/Dropbox/Разработка/WordPress/apptamin-d/styles/pagenavi.styl */
+.wp-pagenavi a,
+.wp-pagenavi a:link,
+.wp-pagenavi span {
+  border: 1px solid #ccc !important;
+  color: #666 !important;
+  font-style: normal;
+  margin: 0 0.375em !important;
+  padding: 0.5em 0.25em !important;
+}
