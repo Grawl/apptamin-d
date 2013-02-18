@@ -287,8 +287,8 @@ if ( !function_exists( 'optionsframework_page' ) ) {
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>
 			
-			<h3><?php _e("Apptamin A Theme on GitHub","apptamin-admin-text-sidebar");?></h3>
-			<p><?php _e("You know what you're doing when it comes to WordPress themes and PHP? You're a designer? Check out the project on <a href='https://github.com/apptamin/apptamin-a' target='_blank'>GitHub</a> and <strong>together, let's take the theme to the next level</strong>. There are several improvements that could benefit many app developers!","apptamin-admin-text-sidebar");?></p>
+			<h3><?php _e("Apptamin D Theme on GitHub","apptamin-admin-text-sidebar");?></h3>
+			<p><?php _e("You know what you're doing when it comes to WordPress themes and PHP? You're a designer? Check out the project on <a href='https://github.com/grawl/apptamin-d' target='_blank'>GitHub</a> and <strong>together, let's take the theme to the next level</strong>. There are several improvements that could benefit many app developers!","apptamin-admin-text-sidebar");?></p>
 		
 			<h3><?php _e("Help & Support","apptamin-admin-text-sidebar");?></h3>
 			<p><?php _e("This is a free theme, so <strong>support is not guaranteed</strong>. However, we want to make it the best possible, so any problem or suggestion <strong>shoot us an email at <a href='mailto:contact@apptamin.com'>contact@apptamin.com</a></strong>. It just means that if we're chilling on the beach, out partying or working (more likely ;) we probably won't stop what we're doing to answer you right away. But you WILL get a response, no matter what.","apptamin-admin-text-sidebar");?></p>

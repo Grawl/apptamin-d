@@ -2,7 +2,7 @@
 add_action('admin_menu', 'apptamin_guide');
 
 function apptamin_guide() {
-	add_theme_page('How to use the Apptamin A Theme', __('Apptamin User Guide','apptaminguide'),8, 'manage_options', 'apptamin_guide_options');
+	add_theme_page('How to use the Apptamin D Theme', __('Apptamin User Guide','apptaminguide'),8, 'manage_options', 'apptamin_guide_options');
 }
 
 function apptamin_guide_options() {
@@ -43,7 +43,7 @@ function apptamin_guide_options() {
 		</ul>
 		
 		<p><strong><?php echo _e("Here is a screenshot that should help you understand the different parts of the themes mentioned.","apptaminguide");?></strong></p>
-		<p style="text-align:center"><img width="100%" src="http://www.apptamin.com/screenshot.jpg" alt="Apptamin A theme screenshot"/></p>
+		<p style="text-align:center"><img width="100%" src="http://www.apptamin.com/screenshot.jpg" alt="Apptamin D theme screenshot"/></p>
 
 </div>
 

@@ -8,7 +8,7 @@ For promoting any desktop application with brand new website.
 ##WIP status
 This theme is a fork of Apptamin A Theme and still has a WIP status, so don't download it now, it's not ready yet, it's just the same as Apptamin A.
 ##Plan
-In the nearest future I want to replace mobile features of Apptamin A with deskop-specific features.
+In the nearest future I want to replace mobile features of Apptamin D with deskop-specific features.
 
 1. Replace mobile devices with usual PC desktop monitor and iMac
 2. ~~Replace iTunes App Store button with Mac App Store button and Google Play with Windows Store~~
