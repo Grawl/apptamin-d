@@ -26,8 +26,8 @@ function optionsframework_options() {
 
 	// Radio data
 	//$smartphones_array = array("iphone" => "iphone","android" => "android");
-	$smartphones_array = array("none" => "None", "imac" => "iMac", "macbook-pro" => "MacBook Pro", "macbook-air" => "MacBook Air", "android2" => "Android (Galaxy S3)");
-	$devices_front_array = array("none" => "None", "imac" => "iMac", "macbook-pro" => "MacBook Pro", "macbook-air" => "MacBook Air", "androidS3" => "Android (Samsung Galaxy S3)");
+	$smartphones_array = array("none" => "None", "imac" => "iMac (16:9)", "macbook-pro" => "MacBook Pro  (16:10)", "macbook-air" => "MacBook Air 13\" (16:9)", "android2" => "Android (Galaxy S3)");
+	$devices_front_array = array("none" => "None", "imac" => "iMac (16:9)", "macbook-pro" => "MacBook Pro (16:10)", "macbook-air" => "MacBook Air 13\" (16:9)", "androidS3" => "Android (Samsung Galaxy S3)");
 	$devices_back_array = $devices_front_array;
 
 	// Multicheck Array
